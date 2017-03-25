@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Player For Cloud</string>
+    <string name="nav_open_drawer">Drawer Opened</string>
+    <string name="nav_close_drawer">Drawer Closed</string>
+    <string name="rate_app"> Application rating</string>
+    <string name="feedback_app"> Feedback </string>
+    <string name="close_app">Exit </string>
+    <string name="about_detail2">To make a small difference</string>
+    <string name="about"> About </string>
+    <string name="share_app">Share app </string>
+    <string name="related_app"> Related applications </string>
+    <string name="name_app"> "Equalizer" </string>
+    <string name="body_app"> Equalizer is a volume slider with live music stereo
+        led VU meter and five band Equalizer with Bass Booster and Virtualizer effects.
+        Equalizer lets you adjust sound effect levels so that you get the best
+        out of your Music or Audio coming out of your phone. </string>
+    <string name="noti_about"> Information is being updated </string>
+    <string name="tools"> Tools </string>
+    <string name="theme"> Background </string>
+    <string name="home"> Home </string>
+    <string name="artist"> Artist </string>
+    <string name="song"> Song </string>
+    <string name="about_detail">The app gives you a great experience with the music on SoundCloud</string>
+    <string name="other_setting"> Other Setting </string>
+    <string name="search"> Search </string>
+    <string name="nothing_found"> Nothing found </string>
+    <string name="scanning"> Scanning... </string>
+    <string name="empty_playlist"> Playlist empty </string>
+    <string name="create_new"> Create New </string>
+    <string name="create"> Create </string>
+    <string name="noti_wifi"> Can not connect to the network </string>
+    <string name="noti_wifi_2"> Turn on WiFi or mobile data </string>
+    <string name="give_name_playlist"> Give a name to playlist </string>
+    <string name="input_name"> Enter playlist name </string>
+    <string name="songs"> Songs </string>
+    <string name="playlist"> Playlists </string>
+    <string name="recent"> Recent </string>
+    <string name="download"> Download </string>
+    <string name="noti_update_lyrics"> Lyrics not available </string>
+    <string name="local"> Local </string>
+    <string name="info_not_name_playlist"> You did not enter a playlist name </string>
+    <string name="cancel"> Cancel </string>
+    <string name="back"> Back </string>
+    <string name="no_tracks_found"> No tracks found </string>
+    <string name="choose_playlist"> Select playlist to add </string>
+    <string name="ok"> OK </string>
+    <string name="no"> No </string>
+    <string name="language">Language</string>
+    <string name="vi_language">Vietnamese</string>
+    <string name="en_language">English</string>
+    <string name="setting"> Setting </string>
+    <string name="yes"> Yes </string>
+    <string name="noti_add_plist"> Add to playlist </string>
+    <string name="success"> success </string>
+    <string name="no_playlist"> No playlist </string>
+    <string name="repeat_all"> Repeat all songs </string>
+    <string name="shuffle"> Shuffle songs </string>
+    <string name="repeat_current"> Repeat current song </string>
+    <string name="sound_off"> Sound is turned off </string>
+    <string name="sound_on"> Sound is turned on </string>
+    <string name="noti_name_playlist"> Try another name </string>
+    <string name="noti_language"> Restart Player For Cloud to apply change </string>
+    <string name="noti_playlist_exists"> Playlist not exists </string>
+    <string name="noti_download_lyric"> Download lyric success </string>
+    <string name="loading_lyric"> Loading lyrics </string>
+    <string name="noti_play_this_song"> You need a network connection to play this song </string>
+    <string name="noti_choose_song"> You did not select songs </string>
+    <string name="noti_exit_app"> You want to quit the application? </string>
+    <string name="noti_save"> Save to: </string>
+    <string name="noti_song_dowmloaded"> This song has been downloaded already. Do you want to play? </string>
+    <string name="noti_song_download_success"> Download the song successfully. You want to play songs downloaded it? </string>
+    <string name="noti_play_next_song"> The next song needs a network connection. Please check again </string>
+    <string name="noti_play_previous_song"> The previous song needs a network connection. Please check again </string>
+    <string name="noti_song_end"> This is the last song </string>
+    <string name="noti_song_begin"> This is the first song </string>
+    <string name="noti_action_equalizer"> To perform this function, you need to open
+        the application Equalizer. You do not want to open? </string>
+    <string name="noti_download_equalizer"> You do not download applications Equalizer.
+        You do not want to download? </string>
+
+
+</resources>

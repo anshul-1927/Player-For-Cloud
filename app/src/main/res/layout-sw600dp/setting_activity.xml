@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorbg"
+              android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="80dp"
+                  android:elevation="10dp"
+                  android:background="@color/colorPrimary">
+        <ImageView android:id="@+id/btnBackMain"
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/custom_bg"
+                   android:src="@drawable/actionbar_back"/>
+        <dev.datvt.cloudtracks.utils.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/setting"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"
+                  android:layout_marginTop="20dp"
+                  android:orientation="vertical"
+                  android:padding="2.5dp">
+
+
+        <RelativeLayout android:id="@+id/rlLanguage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="13dp"
+                        android:paddingRight="13dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:background="@drawable/border_select_item"
+        >
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/language"
+                android:textStyle="bold"
+                android:textColor="@drawable/custom_text_color_black"
+                android:textSize="20sp"/>
+
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:id="@+id/tvNameLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/en_language"
+                android:textColor="@drawable/custom_text_color_black"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/rlRating"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border_select_item"
+                        android:paddingLeft="13dp"
+                        android:paddingRight="13dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp">
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/rate_app"
+                android:textColor="@drawable/custom_text_color_black"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/rlRelatedApp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_select_item"
+                        android:paddingLeft="13dp"
+                        android:paddingRight="13dp"
+                        android:layout_marginTop="1dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp">
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/related_app"
+                android:textColor="@drawable/custom_text_color_black"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout android:id="@+id/rlFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_select_item"
+                        android:paddingLeft="13dp"
+                        android:paddingRight="13dp"
+                        android:layout_marginTop="1dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp">
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/feedback_app"
+                android:textStyle="bold"
+                android:textColor="@drawable/custom_text_color_black"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rlAbout"
+                        android:background="@drawable/border_select_item"
+                        android:paddingLeft="13dp"
+                        android:paddingRight="13dp"
+                        android:paddingTop="20dp"
+                        android:layout_marginTop="1dp"
+                        android:paddingBottom="20dp">
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/about"
+                android:textStyle="bold"
+                android:textColor="@drawable/custom_text_color_black"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

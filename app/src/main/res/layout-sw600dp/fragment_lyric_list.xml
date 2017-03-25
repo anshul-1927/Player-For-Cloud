@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rlLyrics"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ListView android:id="@+id/lvLyricList"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="5dp"
+              android:divider="@null"
+              android:visibility="visible"
+              tools:listitem="@layout/item_lyrics_list">
+    </ListView>
+
+    <ListView android:id="@+id/lvLyrics"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_above="@+id/ivBackLyrics"
+              android:layout_marginBottom="5dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="5dp"
+              android:divider="@null"
+              android:visibility="gone"
+              tools:listitem="@layout/item_lyrics">
+    </ListView>
+
+    <ImageView
+        android:id="@+id/ivBackLyrics"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="18dp"
+        android:src="@drawable/custom_playlist"
+        android:visibility="gone"/>
+
+    <dev.datvt.cloudtracks.lyrics.LrcView
+        android:id="@+id/lyrics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="17dp"
+        android:visibility="gone"/>
+
+    <dev.datvt.cloudtracks.utils.CustomFontTextView
+        android:id="@+id/tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/noti_update_lyrics"
+        android:textColor="@color/colorYellow"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateloading"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:loading_color="@color/colorWhite"
+        app:loading_width="3dp"/>
+</RelativeLayout>

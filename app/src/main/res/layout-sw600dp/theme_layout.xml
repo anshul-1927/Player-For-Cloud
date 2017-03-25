@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@color/colorList">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="75dp"
+                  android:elevation="10dp"
+                  android:id="@+id/ln"
+                  android:background="@color/colorPrimary">
+        <ImageView android:id="@+id/btnBackPlay"
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/custom_bg"
+                   android:src="@drawable/actionbar_back"/>
+        <dev.datvt.cloudtracks.utils.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/theme"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:columnWidth="190dp"
+        android:layout_below="@+id/ln"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        android:focusable="true"
+        android:listSelector="@drawable/gridview_selector"
+        android:clickable="true"/>
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateloading"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:loading_width="5dp"
+        app:loading_color="@color/colorWhite"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

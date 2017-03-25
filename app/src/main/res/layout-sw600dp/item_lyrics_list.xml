@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_item_list"
+                    android:padding="3dp">
+
+        <dev.datvt.cloudtracks.utils.CircleImageView
+            android:id="@+id/ivArtLyrics"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_img_lyric"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/ivArtLyrics"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingRight="10dp">
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:id="@+id/tvTracks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Đếm ngày xa em"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:id="@+id/tvArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Only C - Lou Hoàng"
+                android:textColor="@color/offwhite"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

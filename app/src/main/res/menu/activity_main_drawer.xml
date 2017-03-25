@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_cloud"
+                    android:icon="@drawable/nav_cloud_music"
+                    android:title="@string/app_name"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/tools">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_app"
+                    android:title="@string/share_app"/>
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_setting"
+                    android:title="@string/setting"/>
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/close_app"/>
+
+            </group>
+        </menu>
+    </item>
+</menu>

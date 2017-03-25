@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Player For Cloud</string>
+    <string name="nav_open_drawer">Drawer Opened</string>
+    <string name="nav_close_drawer">Drawer Closed</string>
+    <string name="rate_app"> Đánh giá ứng dụng </string>
+    <string name="feedback_app"> Phản hồi ứng dụng </string>
+    <string name="close_app"> Thoát </string>
+    <string name="other_setting"> Cài đặt mở rộng </string>
+    <string name="about"> Thông tin </string>
+    <string name="share_app"> Chia sẻ ứng dụng </string>
+    <string name="related_app"> Ứng dụng liên quan </string>
+    <string name="name_app"> "Equalizer" </string>
+    <string name="body_app"> Equalizer là một thanh trượt âm lượng với âm thanh stereo
+        âm nhạc trực tiếp dẫn mét VU và năm ban nhạc Equalizer với hiệu ứng Bass Booster và Bộ ảo hóa.
+        Equalizer cho phép bạn điều chỉnh mức độ hiệu ứng âm thanh để bạn có được tốt nhất
+        của âm nhạc hoặc âm thanh ra khỏi điện thoại của bạn. </string>
+    <string name="noti_about"> Thông tin đang được cập nhật </string>
+    <string name="tools"> Công cụ </string>
+    <string name="home"> Nhà </string>
+    <string name="theme"> Hình nền </string>
+    <string name="nothing_found"> Không tìm thấy </string>
+    <string name="scanning"> Đang quét... </string>
+    <string name="empty_playlist"> Danh sách nhạc trống </string>
+    <string name="noti_language"> Khởi động lại Player For Cloud để áp dụng thay đổi </string>
+    <string name="create_new"> Tạo mới </string>
+    <string name="create"> Tạo </string>
+    <string name="noti_wifi"> Không thể kết nối mạng </string>
+    <string name="noti_wifi_2"> Bật wifi hoặc dữ liệu di động </string>
+    <string name="give_name_playlist"> Đặt một tên cho danh sách nhạc </string>
+    <string name="input_name"> Nhập tên danh sách nhạc </string>
+    <string name="songs"> Bài hát </string>
+    <string name="back"> Quay lại </string>
+    <string name="playlist"> Danh sách nhạc </string>
+    <string name="recent"> Mới đây </string>
+    <string name="download"> Tải xuống </string>
+    <string name="artist"> Ca sĩ </string>
+    <string name="song"> Bài hát </string>
+    <string name="local"> Thiết bị </string>
+    <string name="about_detail2"> Để tạo sự khác biệt nhỏ </string>
+    <string name="about_detail">Ứng dụng giúp bạn có trải nghiệm tuyệt vời với âm nhạc trên SoundCloud</string>
+    <string name="noti_update_lyrics"> Lời bài hát không có sẵn </string>
+    <string name="info_not_name_playlist"> Bạn chưa nhập tên danh sách nhạc </string>
+    <string name="cancel"> Hủy bỏ </string>
+    <string name="no_tracks_found"> Không tìm thấy bài hát </string>
+    <string name="choose_playlist"> Chọn danh sách nhạc để thêm </string>
+    <string name="ok"> Đồng ý </string>
+    <string name="no"> Không </string>
+    <string name="setting"> Cài đặt </string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="vi_language">Tiếng Việt</string>
+    <string name="en_language">Tiếng Anh</string>
+    <string name="yes"> Có </string>
+    <string name="search"> Tìm kiếm </string>
+    <string name="noti_add_plist"> Thêm vào danh sách nhạc </string>
+    <string name="success"> thành công </string>
+    <string name="no_playlist"> Không có danh sách nhạc </string>
+    <string name="repeat_all"> Lặp tất cả bài hát </string>
+    <string name="shuffle"> Lặp ngẫu nhiên bài hát </string>
+    <string name="repeat_current"> Lặp bài hát hiện tại </string>
+    <string name="sound_off"> Âm thanh đã tắt </string>
+    <string name="sound_on"> Âm thanh đã bật </string>
+    <string name="noti_name_playlist"> Hãy thử một tên khác </string>
+    <string name="noti_playlist_exists"> Danh sách nhạc không tồn tại </string>
+    <string name="noti_download_lyric"> Tải lời bài hát thành công </string>
+    <string name="loading_lyric"> Đang tải lời bài hát </string>
+    <string name="noti_play_this_song"> Bạn cần kết nối mạng để chơi bài hát này </string>
+    <string name="noti_choose_song"> Bạn chưa lựa chọn bài hát </string>
+    <string name="noti_exit_app"> Bạn muốn thoát ứng dụng </string>
+    <string name="noti_save"> Lưu vào: </string>
+    <string name="noti_song_dowmloaded"> Bài hát này đã được tải về. Bạn có muốn chơi không? </string>
+    <string name="noti_song_download_success"> Tải bài hát thành công. Bài có muốn chơi bài hát không? </string>
+    <string name="noti_play_next_song"> Bài hát tiếp theo cần kết nối mạng. Vui lòng kiểm tra lại </string>
+    <string name="noti_play_previous_song"> Bài hát trước cần kết nối mạng. Vui lòng kiểm tra lại </string>
+    <string name="noti_song_end"> Đây là bài hát cuối cùng </string>
+    <string name="noti_song_begin"> Đây là bài hát đầu tiên </string>
+    <string name="noti_action_equalizer"> Để bật tính năng này. Bạn cần chạy ứng dụng Equalizer.
+        Bạn có muốn chạy không? </string>
+    <string name="noti_download_equalizer"> Bạn chưa tải ứng dụng Equalizer.
+        Bạn có muốn tải không? </string>
+
+
+</resources>

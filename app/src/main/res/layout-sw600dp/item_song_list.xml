@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/btn_item_list"
+                    android:padding="3dp">
+
+        <dev.datvt.cloudtracks.utils.CircleImageView
+            android:id="@+id/ivArt"
+            android:layout_width="70dp"
+            android:layout_margin="5dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/default_nhaccuatui"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="20dp"
+            android:paddingRight="10dp"
+            android:layout_toLeftOf="@+id/ivVirtual"
+            android:layout_toRightOf="@+id/ivArt"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:id="@+id/tvSongName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Đếm ngày xa em"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"/>
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:id="@+id/tvSingerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="15sp"
+                android:text="Only C - Lou Hoàng"
+                android:textColor="@color/offwhite"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/ivVirtual"
+                      android:layout_width="45dp"
+                      android:layout_height="40dp"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                      android:layout_marginRight="10dp"
+                      android:visibility="visible">
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animation_playing"/>
+            <ImageView
+                android:id="@+id/img_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animation_playing_1"/>
+            <ImageView
+                android:id="@+id/img_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animation_playing_2"/>
+            <ImageView
+                android:id="@+id/img_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/animation_playing_3"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

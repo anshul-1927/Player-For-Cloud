@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dev.datvt.cloudtracks.utils.CustomFontTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="5dip"
+    android:text="All"
+    android:textSize="20sp"
+    android:textAppearance="@android:style/TextAppearance.Small"
+    android:textColor="@color/colorGray"/>

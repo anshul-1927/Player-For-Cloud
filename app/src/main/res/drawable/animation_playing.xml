@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/indicator_playing_3" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_11" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_4" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_12" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_6" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_3" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_13" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_8" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_9" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_10" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_1" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_2" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_0" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_5" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_14" android:duration="150"></item>
+    <item android:drawable="@drawable/indicator_playing_7" android:duration="150"></item>
+</animation-list>

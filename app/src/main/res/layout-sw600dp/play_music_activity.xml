@@ -1,0 +1,175 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_0"
+    android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="17dp">
+        <ImageView android:id="@+id/ivClose"
+                   android:layout_width="50dp"
+                   android:layout_height="match_parent"
+                   android:layout_alignParentLeft="true"
+                   android:layout_centerVertical="true"
+                   android:background="@drawable/custom_bg"
+                   android:layout_marginLeft="10dp"
+                   android:src="@drawable/custom_close_playing"/>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/ivChangeTheme"
+            android:layout_toRightOf="@+id/ivClose">
+        </me.relex.circleindicator.CircleIndicator>
+
+        <ImageView android:id="@+id/ivChangeTheme"
+                   android:layout_width="70dp"
+                   android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="15dp"
+                   android:background="@drawable/custom_bg"
+                   android:src="@drawable/custom_theme"/>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indicator"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"/>
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+        android:id="@+id/loadingUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/viewPager"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        app:spb_color="@color/colorGray"
+        app:spb_mirror_mode="false"
+        app:spb_progressiveStart_activated="true"
+        app:spb_progressiveStart_speed="1.5"
+        app:spb_progressiveStop_speed="3.4"
+        app:spb_reversed="false"
+        app:spb_sections_count="4"
+        app:spb_speed="1.0"
+        app:spb_stroke_separator_length="4dp"
+        app:spb_stroke_width="4dp"/>
+
+    <LinearLayout android:id="@+id/lnPlaying"
+                  android:layout_width="match_parent"
+                  android:layout_height="220dp"
+                  android:layout_below="@+id/loadingUpdate"
+                  android:layout_gravity="center"
+                  android:background="@drawable/playing_bottom_background"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:paddingBottom="5dp"
+                  android:paddingTop="5dp">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+            <ImageView android:id="@+id/ivVolume"
+                       android:layout_width="60dp"
+                       android:layout_height="60dp"
+                       android:layout_alignParentLeft="true"
+                       android:layout_centerHorizontal="true"
+                       android:background="@drawable/custom_bg"
+                       android:layout_marginLeft="100dp"
+                       android:src="@drawable/custom_sound_on"/>
+            <ImageView android:id="@+id/ivShare"
+                       android:layout_width="60dp"
+                       android:layout_height="60dp"
+                       android:layout_alignParentRight="true"
+                       android:layout_centerHorizontal="true"
+                       android:background="@drawable/custom_bg"
+                       android:layout_marginRight="100dp"
+                       android:src="@drawable/custom_share"/>
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:id="@+id/cur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="50dp"
+                android:text="00:00"
+                android:layout_marginLeft="15dp"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"/>
+            <dev.datvt.cloudtracks.utils.CustomFontTextView
+                android:id="@+id/tot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp"
+                android:layout_marginRight="15dp"
+                android:text="00:00"
+                android:textColor="@color/colorWhite"/>
+            <SeekBar android:id="@+id/seekP"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:layout_centerInParent="true"
+                     android:layout_marginTop="2dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"/>
+        </RelativeLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1">
+            <ImageView android:id="@+id/repP"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_margin="35dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/custom_bg"
+                       android:src="@drawable/custom_repeat_all"/>
+            <ImageView android:id="@+id/prevP"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_margin="20dp"
+                       android:background="@drawable/custom_bg"
+                       android:layout_weight="1"
+                       android:src="@drawable/custom_previous"/>
+
+            <ImageView android:id="@+id/ppP"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="1"
+                       android:background="@drawable/custom_bg"
+                       android:src="@drawable/custom_play"/>
+
+            <ImageView android:id="@+id/nextP"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_margin="20dp"
+                       android:layout_weight="1"
+                       android:background="@drawable/custom_bg"
+                       android:src="@drawable/custom_next"/>
+
+            <ImageView android:id="@+id/equalizerP"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_margin="35dp"
+                       android:background="@drawable/custom_bg"
+                       android:layout_weight="1"
+                       android:src="@drawable/custom_equalizer"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

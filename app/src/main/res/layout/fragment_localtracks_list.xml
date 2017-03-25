@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="nf.co.hoproject.musiccloud.CloudTracksFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnBack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="5dp"
+        android:background="@drawable/btb"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:layout_gravity="center"
+                   android:id="@+id/backL"
+                   android:layout_marginLeft="10dp"
+                   android:src="@drawable/icon_back_main"/>
+        <dev.datvt.cloudtracks.utils.CustomFontTextView
+            android:id="@+id/backM"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:gravity="center_vertical"
+            android:text="@string/back"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack">
+        </dev.datvt.cloudtracks.utils.CustomFontTextView>
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include
+                layout="@layout/include_search_view"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                app:layoutManager="LinearLayoutManager"
+                tools:listitem="@layout/fragment_item"/>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/mm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
